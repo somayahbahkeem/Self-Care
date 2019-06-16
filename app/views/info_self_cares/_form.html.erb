@@ -1,0 +1,52 @@
+<%= form_with(model: info_self_care, local: true) do |form| %>
+  <% if info_self_care.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(info_self_care.errors.count, "error") %> prohibited this info_self_care from being saved:</h2>
+
+      <ul>
+      <% info_self_care.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :care_name %>
+    <%= form.text_field :care_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :time %>
+    <%= form.text_field :time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_frome %>
+    <%= form.date_select :Date_frome %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date_to %>
+    <%= form.date_select :date_to %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location %>
+    <%= form.text_field :location %>
+  </div>
+
+  <div class="field">
+    <%= form.label :period %>
+    <%= form.text_field :period %>
+  </div>
+
+  <div class="field">
+    <%= form.label :reminder_time %>
+    <%= form.date_select :reminder_time %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

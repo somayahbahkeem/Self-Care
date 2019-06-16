@@ -1,0 +1,2 @@
+module InfoSelfCaresHelper
+end

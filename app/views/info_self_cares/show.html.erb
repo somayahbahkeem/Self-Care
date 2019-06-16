@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Care-name:</strong>
+  <%= @info_self_care.care_name %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @info_self_care.time %>
+</p>
+
+<p>
+  <strong>Date-frome:</strong>
+  <%= @info_self_care.date_frome %>
+</p>
+
+<p>
+  <strong>Date-to:</strong>
+  <%= @info_self_care.date_to %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @info_self_care.location %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @info_self_care.period %>
+</p>
+
+<p>
+  <strong>Reminder-time:</strong>
+  <%= @info_self_care.reminder_time %>
+</p>
+
+<%= link_to 'Edit', edit_info_self_care_path(@info_self_care) %> |
+<%= link_to 'Back', info_self_cares_path %>

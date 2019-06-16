@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Care-Name: MyString
+  Time: MyString
+  Date-frome: 2019-06-16
+  Date-To: 2019-06-16
+  Location: MyString
+  period: MyString
+  Reminder-Time: 2019-06-16
+
+two:
+  Care-Name: MyString
+  Time: MyString
+  Date-frome: 2019-06-16
+  Date-To: 2019-06-16
+  Location: MyString
+  period: MyString
+  Reminder-Time: 2019-06-16
