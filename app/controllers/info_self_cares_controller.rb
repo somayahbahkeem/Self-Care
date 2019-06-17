@@ -7,6 +7,7 @@ class InfoSelfCaresController < ApplicationController
    
 
     @info_self_cares = current_user.info_self_cares
+    
   end
 
   # GET /info_self_cares/1
