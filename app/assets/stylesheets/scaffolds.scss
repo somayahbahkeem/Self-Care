@@ -82,4 +82,144 @@ div {
 label {
   display: block;
 }
+/////////////////////////////////////
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: withe;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+  ///////////////////////////////////////
+ 
+.boxs{
+  margin-left: 10%;
+ 
 
+  
+  text-align: center;
+  
+}
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid rgb(48, 107, 118);
+    padding: 25px;
+    margin: 20px;
+    float: left;
+  }
+  .footer{
+    text-align: center;
+  }
+
+  .selfCareInfo{
+   margin: 0 auto;
+   height: 500px;
+   position: relative;
+   text-align: center;
+   padding-top: 3%;
+  }
+
+  .selfCareInfo::after {
+    content: "";
+    background: url(SelfCareImage.jpeg); 
+    background-position: center top ;
+    background-size: cover;
+    //background-size: contain;
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  img {
+    width: 100%;
+  }
+  ////////////////////////////////
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+.image-container img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

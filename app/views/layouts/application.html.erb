@@ -6,13 +6,14 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-   
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-
+    <p class="notice"></p>
+    <p class="alert"></p>
+      
+    <header >
       <ul>
       
       <% if user_signed_in? %>
@@ -37,7 +38,43 @@
             </li>
         <% end %>
       <% end %>
-		
+      <li>
+      <%= link_to('About', about_path) %>
+    </li>
+    <li>
+    <%= link_to('Contact', contact_us_path) %>
+  </li>
+    </ul>
+    </header >
+    
     <%= yield %>
+
+    <div>
+    <ul class="boxs">
+        <li class="box">
+            <h3 ><%= link_to('Self Care', slfeCareInfo_path) %></h3>
+            <p> Self Care is application  to schedule you self and you can use it as a noit</p>
+        </li>
+        <li class="box">
+            <h3 ><%= link_to('About', about_path) %></h3>
+            <p> Self Care is application  to schedule you self and you can use it as a noit</p>
+        </li>
+        <li class="box">
+            <h3 ><%= link_to('Contact', contact_us_path) %></h3>
+            <p> Self Care is application  to schedule you self and you can use it as a noit</p>
+        </li>
+        <li class="box">
+        <h3 ><%= link_to('Home', home_page_path) %></h3>
+        <p> Self Care is application  to schedule you self and you can use it as a noit</p>
+       </li>
+  
+    </ul>
+</div>
+
+
+    <footer class="footer" >
+    <p><small>&copy; 2019 Self Care   <br> Made with by Somayah Bahkeem</p>
+    </footer >
+
   </body>
 </html>

@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 table.blueTable {
-    border: 1px solid #1C6EA4;
+    border: 1px solid rgb(67, 157, 164);
     background-color: #EEEEEE;
     width: 100%;
     text-align: left;
@@ -19,11 +19,11 @@ table.blueTable {
     background: #D0E4F5;
   }
   table.blueTable thead {
-    background: #1C6EA4;
-    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-    border-bottom: 2px solid #444444;
+    background:  rgb(67, 157, 164);
+    background: -moz-linear-gradient(top, #5592bb 0%, rgb(67, 157, 164) 66%, rgb(103, 188, 198) 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, rgb(67, 157, 164)66%,rgb(103, 188, 198) 100%);
+    background: linear-gradient(to bottom, #5592bb 0%,rgb(67, 157, 164) 66%,rgb(103, 188, 198)100%);
+    border-bottom: 2px solid #0c4e55;
   }
   table.blueTable thead th {
     font-size: 15px;
@@ -43,7 +43,7 @@ table.blueTable {
     background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
     background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
     background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
-    border-top: 2px solid #444444;
+    border-top: 2px solid #0c4e55;
   }
   table.blueTable tfoot td {
     font-size: 14px;
@@ -53,7 +53,7 @@ table.blueTable {
   }
   table.blueTable tfoot .links a{
     display: inline-block;
-    background: #1C6EA4;
+    background: rgb(67, 157, 164);
     color: #FFFFFF;
     padding: 2px 8px;
     border-radius: 5px;
