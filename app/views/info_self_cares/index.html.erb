@@ -1,6 +1,10 @@
+<div class="selfCarTable">
 <p id="notice"><%= notice %></p>
 
-<h1>Info Self Cares</h1>
+<p> Welcome<%= current_user.email %></p>
+<div class="textStayle">
+<h1> Self Cares Schedule</h1>
+</div>
 
 <table class="blueTable">
   <thead>
@@ -40,3 +44,4 @@
 <%= link_to 'New Info Self Care', new_info_self_care_path %>
 
 <%= link_to 'Back', root_path %>
+</div>

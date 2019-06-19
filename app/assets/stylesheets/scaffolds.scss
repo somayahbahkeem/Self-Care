@@ -139,7 +139,7 @@ label {
 
   .selfCareInfo::after {
     content: "";
-    background: url(SelfCareImage.jpeg); 
+    background: url(images1.jpg); 
     background-position: center top ;
     //background-size: cover;
     background-size: contain;
@@ -239,7 +239,7 @@ span.psw {
   display: flex;
   justify-content: space-between;
   width: 50%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .text-block {
   position: absolute;
@@ -255,3 +255,97 @@ span.psw {
   padding-left: 20px;
   padding-right: 20px;
 }
+/////////////////////////////
+.textStayle{
+  // position: absolute;
+  // top: 20px;
+  // left:300px;
+  filter: alpha(opacity=50);
+  color: white;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 30px;
+  
+
+}
+/////////////////////////////////
+.selfCarLogin{
+  margin: 0 auto;
+  // height: 500px;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+ }
+
+ .selfCarLogin::after {
+   content: "";
+   background: url(image2.jpg); 
+   background-position: center top ;
+   //background-size: cover;
+   background-size: contain;
+  //  height: 550px;
+   background-repeat: no-repeat;
+   opacity: 0.5;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1;   
+ }
+ /////////////////////////////
+ .selfCarTable{
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  padding: 3%;
+ }
+
+ .selfCarTable::after {
+   content: "";
+   background: url(images.jpg); 
+   background-position: center top ;
+   //background-size: cover;
+   background-size: contain;
+   height: 550px;
+   background-repeat: no-repeat;
+   opacity: 0.5;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1;   
+ }
+ //////////////////////////////////
+ .selfCarSEN{
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+ }
+
+ .selfCarSEN::after {
+   content: "";
+   background: url(image3.jpg); 
+   background-position: center top ;
+   //background-size: cover;
+   background-size: contain;
+   height: 500px;
+   background-repeat: no-repeat;
+   opacity: 0.5;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1;   
+ }
