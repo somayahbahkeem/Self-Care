@@ -139,7 +139,7 @@ label {
 
   .selfCareInfo::after {
     content: "";
-    background-image: url(images1.jpg); 
+    background-image: image-url("images1.jpg"); 
     background-position: center top ;
     //background-size: cover;
     background-size: contain;
@@ -285,7 +285,7 @@ span.psw {
 
  .selfCarLogin::after {
    content: "";
-   background-image: url(image2.jpg); 
+   background-image: image-url("image2.jpg"); 
    background-position: center top ;
    //background-size: cover;
    background-size: contain;
@@ -310,7 +310,7 @@ span.psw {
 
  .selfCarTable::after {
    content: "";
-   background-image: url(images.jpg); 
+   background-image: image-url("images.jpg"); 
    background-position: center top ;
    //background-size: cover;
    background-size: contain;
@@ -335,7 +335,7 @@ span.psw {
 
  .selfCarSEN::after {
    content: "";
-   background-image: url(image3.jpg); 
+   background-image: image-url("image3.jpg"); 
    background-position: center top ;
    //background-size: cover;
    background-size: contain;
