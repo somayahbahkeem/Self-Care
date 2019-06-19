@@ -1,7 +1,7 @@
 body {
-  background-color: #fff;
+  background-color:rgb(213, 242, 207);
   color: #333;
-  margin: 33px;
+  margin: 50px;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -89,6 +89,8 @@ label {
     padding: 0;
     overflow: hidden;
     background-color: withe;
+    display: flex;
+    justify-content: center;
   }
   
   li {
@@ -109,18 +111,16 @@ label {
   ///////////////////////////////////////
  
 .boxs{
-  margin-left: 10%;
- 
-
-  
+  margin-left: 5%;
   text-align: center;
   
 }
   .box {
     width: 200px;
     height: 200px;
-    background-color: lightblue;
-    border: 5px solid rgb(48, 107, 118);
+    color: MediumVioletRed;
+    background-color:rgb(156, 223, 158);
+    border: 5px solid purple;
     padding: 25px;
     margin: 20px;
     float: left;
@@ -141,8 +141,8 @@ label {
     content: "";
     background: url(SelfCareImage.jpeg); 
     background-position: center top ;
-    background-size: cover;
-    //background-size: contain;
+    //background-size: cover;
+    background-size: contain;
     height: 500px;
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -155,12 +155,15 @@ label {
   }
 
   img {
-    width: 100%;
+    width: 80%;
+    position: relative;
+    background-size: contain;
+   
   }
   ////////////////////////////////
 
 input[type=email], input[type=password] {
-  width: 100%;
+  width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -173,10 +176,11 @@ input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 8px auto;
   border: none;
   cursor: pointer;
-  width: 100%;
+  display: block;
+  width: 30%;
 }
 
 button:hover {
@@ -186,7 +190,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  // background-color: #f44336;
 }
 
 .imgcontainer {
@@ -199,15 +203,13 @@ button:hover {
   text-align: center;
 }
 .image-container img.avatar {
-  width: 40%;
+  width: 15%;
   border-radius: 50%;
   max-height: 200px;
   max-width: 200px;
 }
 
-.container {
-  padding: 16px;
-}
+
 
 span.psw {
   float: right;
@@ -220,6 +222,36 @@ span.psw {
      float: none;
   }
   .cancelbtn {
-     width: 100%;
+    width: 100%;
+   
+     
   }
+}
+////////////////////////////
+.container {
+  position: relative;
+  font-family: Arial;
+  width: 100%;
+  text-align: center;
+}
+
+.container.shared {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+    margin: 0 auto;
+}
+.text-block {
+  position: absolute;
+  top: 20px;
+  left:150px;
+  //background-color:;
+   opacity: 0.9;
+  filter: alpha(opacity=50);
+  color: white;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

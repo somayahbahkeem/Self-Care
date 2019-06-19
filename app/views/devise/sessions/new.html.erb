@@ -1,7 +1,9 @@
-<h2>Log in</h2>
+
 <div class="image-container">
 <%= image_tag("login.png", class: "avatar", alt: "self care image") %>
+<h2>Log in</h2>
 </div>
+
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="container">
@@ -11,7 +13,7 @@
     <b><%= f.label :password %></b>
     <%= f.password_field :password, autocomplete: "current-password" %>
 
-    <%= f.submit "Log in" %>
+    <b><%= f.submit "Log in" %></b>
 
     <label>
       <%= f.check_box :remember_me %>
